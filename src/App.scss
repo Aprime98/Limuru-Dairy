@@ -1,0 +1,27 @@
+.p-text {
+  font-family: Arial, sans-serif; /* Sets a clean, modern font */
+  font-size: 16px; /* Standard size for body text */
+  line-height: 1.5; /* Increases spacing between lines for readability */
+  color: #333; /* Dark gray text color for better contrast */
+  margin: 1em 0; /* Adds vertical spacing between paragraphs */
+  padding: 0 10px; /* Adds horizontal padding for better text placement */
+  text-align: justify; /* Justifies text for a cleaner look (optional) */
+  background-color: #f9f9f9; /* Light background for better visibility */
+  border-left: 4px solid #3498db; /* Adds a left border for styling */
+  padding-left: 15px; /* Adds padding to the left for the border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.p-text:hover {
+  background-color: #e9ecef; /* Changes background color on hover */
+}
+
+.p-para {
+  text-align: center; /* Centers the text horizontally */
+  margin: 1em 0; /* Adds vertical spacing between paragraphs */
+}
+
+.app__space{
+padding: 6rem 0;
+}
